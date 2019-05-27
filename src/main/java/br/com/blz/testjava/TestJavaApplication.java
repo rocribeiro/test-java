@@ -2,8 +2,9 @@ package br.com.blz.testjava;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication(scanBasePackageClasses = TestJavaApplication.class)
+@SpringBootApplication
 public class TestJavaApplication {
 
 	public static void main(String[] args) {
